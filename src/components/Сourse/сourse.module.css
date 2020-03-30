@@ -1,0 +1,25 @@
+.course {
+    grid-area: content;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.education {
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+.courseClasses {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: black;
+    text-align: center;
+}
+
+.courseClasses > div {
+    border:1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 50px 155px;
+    padding: 10px;
+}

@@ -1,0 +1,57 @@
+.login {
+    grid-area: content;
+    display: grid;
+
+}
+
+.loginForm {
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto;
+    background-color: aliceblue;
+    padding: 10px;
+    height: 90vh;
+}
+
+.loginForm > form {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 30px;
+
+}
+
+.headerTitle {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: #4268ff;
+}
+
+.field {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit {
+    font-size: 20px;
+    width: 10%;
+    background-color: #2a5caf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .submit {
+      width: 100px;
+    }
+}
