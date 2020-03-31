@@ -16,34 +16,6 @@ import {getAuthUserData, logOut} from "./redux/auth-reducer";
 
 class App extends React.Component {
 
-
-    // logOut = () => {
-    //     this.props.logOut();
-    //     window.location = '/login';
-    // };
-    //
-    // renderLogout = () => {
-    //     if (!this.props.user) {
-    //         return '';
-    //     }
-    //
-    //     return (
-    //         <button className="logout-btn" onClick={() => {this.logOut()}}>
-    //             Logoutt
-    //         </button>
-    //     );
-    // };
-    //
-    // renderUserInfo = () => {
-    //     if (!this.props.user) {
-    //         return '';
-    //     }
-    //
-    //     return (
-    //         <span>{this.props.user.username} ({this.props.user.email})</span>
-    //     );
-    // };
-
     render() {
         return (
             <div className="App">

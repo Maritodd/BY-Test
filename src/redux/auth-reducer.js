@@ -35,8 +35,6 @@ export const login = (identifier, password) => {
         loginAPI.login(identifier, password).then(response => {
             console.log(response.user);
             console.log(response.jwt);
-            // setUser(response.user);
-            // setToken(response.jwt);
             dispatch(setAuthUserData(setUser(response.user)));
             console.log(response.user);
             console.log(response.jwt);
@@ -44,14 +42,6 @@ export const login = (identifier, password) => {
         });
     }
 };
-
-// export const logOut = (userId) => {
-//     return (dispatch) => {
-//         loginAPI.logOut(userId).then(response => {
-//             dispatch(getAuthUserData(null, null, null, false));
-//         })
-//     }
-// };
 
 export function logOut() {
     return async (dispatch) => {
